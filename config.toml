@@ -1,0 +1,10 @@
+baseURL = "http://example.org/"
+languageCode = "ja-JP"
+title = "My New Hugo Site"
+theme = "mainroad"
+
+[Params.sidebar]
+  home = "right"
+  list = "left"
+  single = false
+  widgets = ["search", "recent", "categories"]
