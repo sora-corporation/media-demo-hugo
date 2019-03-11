@@ -6,7 +6,7 @@ services:
     ports:
       - 1313:1313
     volumes:
-      - ${PWD}:/wd
+      - .:/wd
     working_dir: /wd
     entrypoint:
       - /opt/go/bin/hugo
